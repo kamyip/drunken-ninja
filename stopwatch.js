@@ -66,5 +66,5 @@ var	clsStopwatch	=
 //alert('You took ' + (x.stop() / 1000) + ' seconds');	// Pause the stopwatch whilst displaying result
 //
 //alert('Stopwatch resumed at ' + (x.start() / 1000) + 'seconds. Press [OK]'); 
-alert('You took ' + (x.stop() / 1000) + ' seconds for both');	// Pause
-x.stop();	// Reset
+//alert('You took ' + (x.stop() / 1000) + ' seconds for both');	// Pause
+//x.stop();	// Reset
