@@ -58,13 +58,13 @@ var	clsStopwatch	=
 //	------------------------------------------------------------------------
 //
 //	Demo
-var	x	= new clsStopwatch();
+//var	x	= new clsStopwatch();
 //
 //	See how long it takes to press [OK]
-x.start();	// Start the stopwatch
-alert('Press [OK]'); 
-alert('You took ' + (x.stop() / 1000) + ' seconds');	// Pause the stopwatch whilst displaying result
+//x.start();	// Start the stopwatch
+//alert('Press [OK]'); 
+//alert('You took ' + (x.stop() / 1000) + ' seconds');	// Pause the stopwatch whilst displaying result
 //
-alert('Stopwatch resumed at ' + (x.start() / 1000) + 'seconds. Press [OK]'); 
+//alert('Stopwatch resumed at ' + (x.start() / 1000) + 'seconds. Press [OK]'); 
 alert('You took ' + (x.stop() / 1000) + ' seconds for both');	// Pause
 x.stop();	// Reset
